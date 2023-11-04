@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #202020;
+  padding: 10px;
+  display: flex;
+  color: #f4f4f4;
+  justify-content: space-between;
+}
+.navbar a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+.navbar a:hover {
+  color: #f4f4f4;
+}
+.navbar .nav-title {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.nav-right ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav-right ul li {
+  padding: 15px;
+  font-size: 15px;
+}/*# sourceMappingURL=NavBar.css.map */

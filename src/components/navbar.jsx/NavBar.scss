@@ -1,0 +1,39 @@
+$primaryWhite: #f4f4f4;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar {
+  background-color: #202020;
+  padding: 10px;
+  display: flex;
+  color: $primaryWhite;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: #bdbdbd;
+    &:hover {
+      color: $primaryWhite;
+    }
+  }
+
+  .nav-title {
+    font-size: 24px;
+    padding: 10px;
+  }
+}
+.nav-right {
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      padding: 15px;
+      font-size: 15px;
+    }
+  }
+}
